@@ -12,8 +12,8 @@ h2{
 }
 
 .main-container{
-    margin: 2rem 0;
-    width: 100%;
+    margin: 5rem auto;
+    width: 70%;
     display: flex;
     height: 80vh;
 }
@@ -29,13 +29,13 @@ h2{
         line-height: 2rem;
     }
     .btn{
-        padding: .7rem 2rem;
+        padding: .8rem 2rem;
         border-radius: 20px;
         border: none;
         &:hover{
             background-color: transparent;
             border: 1px solid #fff;
-            a{
+            span{
                 color: #fff;
             }
         }
